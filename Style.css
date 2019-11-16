@@ -4,5 +4,5 @@ h2 {
 
 .container.experience {
     background-color: red;
-    padding: 25px;
+    border-radius: 25px;
 }
