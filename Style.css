@@ -8,6 +8,12 @@ h2 {
     padding: 25px;
 }
 
+.container.info {
+    background-color: lightseagreen;
+    border-radius: 25px;
+    padding: 25px;
+}
+
 .jumbotron {
     background-color: lightskyblue
 }
