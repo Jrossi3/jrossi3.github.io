@@ -3,6 +3,7 @@ h2 {
 }
 
 .container.experience {
-    background-color: red;
+    background-color: lightseagreen;
     border-radius: 25px;
+    padding: 25px;
 }
