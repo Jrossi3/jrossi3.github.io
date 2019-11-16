@@ -7,3 +7,7 @@ h2 {
     border-radius: 25px;
     padding: 25px;
 }
+
+.jumbotron {
+    background-color: lightskyblue
+}
