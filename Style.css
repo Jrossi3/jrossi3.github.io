@@ -28,7 +28,7 @@ h2 {
   }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: black;
+    background-color: #3498DB;
 }
   
 .dropdown {
