@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>About Me</title>
+    <link rel="stylesheet" href="feedback.css">
+    <title>Contact</title>
   </head>
   <body>
     <div class="topnav">
@@ -18,37 +19,23 @@
             <a href="Feedback.html">Feedback</a>
             <a href="Aboutme.html">About Me</a>
     </div>
-
-    <div class="img">
-        <img src="https://i.ibb.co/cTd1P4j/IMG-7365.jpg" 
-        alt="IMG-7365" border="0"/>
-    </div>
-    <br>
-    <div class="container about">
-        <div class="row">
-          <div class="col">
-            <h2>Personal Bio:</h2>
-              <p>My name is Jason Rossi and I am currently majoring in 
-                Computer Science at Stevens Institute of Technology. I 
-                received my high school degree from Delbarton School 
-                in Morristown, New Jersey. I have been tutoring for 3 years 
-                and love working with students. 
-              </p>
-          </div>
-          <div class="col">
-            <h2>Education</h2>
-              <ul>
-                  <li>High School: Delbarton School</li>
-                  <li>GPA: 3.9 Finalized</li>
-                  <li>College: Stevens Institute of Technology</li>
-                  <li>GPA: 4.0 Non-Finalized</li>
-              </ul>
-          </div>
+    
+    <br><br>
+    <div class="container more">
+            <div class="row">
+                <div class="col">
+                        <h2>Contact Me</h2>
+                        <form name="input" method="POST" action="https://formspree.io/xwkkwoqj" method="get">
+                            Name (Optional): <br><input type="text" name="fname" placeholder="Your name"><br>
+                            Email (Optional): <br><input type="text" name="lname" placeholder="Your email"><br>
+                            Math Subject(s) (Optional): <br><input type="text" name="lname" placeholder="Subject"><br>
+                            I appreciate any feedback!: <br><textarea type="text" name="lname" placeholder="Your message"></textarea><br>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+            </div>
         </div>
-        
     </div>
-</div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
