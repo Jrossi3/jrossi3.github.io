@@ -2,6 +2,10 @@ h2 {
     color: white;
 }
 
+.introText {
+    width: 80%
+}
+
 .iTutor {
     text-align: center;
     font-size: 30px;
