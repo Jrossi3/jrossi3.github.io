@@ -106,13 +106,6 @@ h2 {
     }
 }
 
-
-@media screen and (max-width: 600px) {
-    .col3 {
-      width: 100%;
-    }
-}
-
 @media (max-width: 998px) and (min-width: 400px){
     img {
         border: 1px solid #ddd;
