@@ -110,23 +110,21 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    display: inline;
     margin: 20px;
     width: 50%;
     height: auto;
     border-radius: 8px;
 }
 
-.img2 {
+/* .img2 {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    display: inline;
     margin: 20px;
     width: 50%;
     height: auto;
     border-radius: 8px;
-}
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
