@@ -65,10 +65,6 @@ text {
       width: 100%;
     }
 }
-  
-.col {
-    flex: 50%;
-}
 
 img {
     border: 1px solid #ddd;
