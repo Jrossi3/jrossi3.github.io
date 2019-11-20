@@ -19,6 +19,13 @@ h2 {
     font-weight: bold;
     font-size: 35px;
 }
+
+.feedback {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 .container.experience {
     background-color: lightseagreen;
     border-radius: 25px;
