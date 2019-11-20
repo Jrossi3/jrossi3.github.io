@@ -110,6 +110,7 @@ h2 {
     img {
         border: 1px solid #ddd;
         border-radius: 4px;
+        image-orientation: center; 
         width: 50%;
     }
 }
@@ -118,6 +119,7 @@ h2 {
     img {
         border: 1px solid #ddd;
         border-radius: 4px;
+        image-orientation: center; 
         width: 50%;
     }
 }
@@ -126,6 +128,7 @@ h2 {
     img {
         border: 1px solid #ddd;
         border-radius: 4px;
+        image-orientation: center; 
         width: 50%;
     }
 }
