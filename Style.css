@@ -1,11 +1,16 @@
 h2 {
     color: white;
+    font-family: serif, Helvetica, Arial;
 }
 
 .introText {
     padding-left: 15px;    
     padding-right: 15px;
     font-size: 20px;  
+}
+
+ul, p{
+    font-family: sans-serif, Helvetica, Arial;
 }
 
 .iTutor {
@@ -139,10 +144,6 @@ h2 {
         width: 30%;
         display: block;
     }
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
   
 .navbar {
