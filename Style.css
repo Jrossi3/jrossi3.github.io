@@ -44,12 +44,16 @@ text {
     border-radius: 4px;
 }
 
-.row {
-    display: flex;
-}
+.col {
+    float: left;
+    width: 50%;
+  }
   
-.column {
-    flex: 50%;
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media screen and (max-width: 600px) {
