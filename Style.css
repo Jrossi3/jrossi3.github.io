@@ -48,7 +48,7 @@ text {
     display: flex;
 }
 
-.column {
+.col {
     float: left;
     width: 50%;
   }
@@ -61,12 +61,12 @@ text {
 }
 
 @media screen and (max-width: 600px) {
-    .column {
+    .col {
       width: 100%;
     }
 }
   
-.column {
+.col {
     flex: 50%;
 }
 
