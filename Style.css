@@ -8,6 +8,17 @@ h2 {
     font-weight: bold;
 }
 
+.contact {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.questions {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
 .container.experience {
     background-color: lightseagreen;
     border-radius: 25px;
