@@ -18,6 +18,12 @@ h1 {
     padding: 25px;
 }
 
+.container.aboutMe {
+    background-color: lightseagreen;
+    border-radius: 25px;
+    padding: 25px;
+}
+
 .container.about{
     background-color: lightseagreen;
     border-radius: 25px;
