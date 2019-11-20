@@ -44,6 +44,32 @@ text {
     border-radius: 4px;
 }
 
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+  
+.column {
+    flex: 50%;
+}
+
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
