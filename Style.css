@@ -47,17 +47,9 @@ text {
 .row {
     display: flex;
 }
-
-.col {
-    float: left;
-    width: 50%;
-  }
   
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.column {
+    flex: 50%;
 }
 
 @media screen and (max-width: 600px) {
