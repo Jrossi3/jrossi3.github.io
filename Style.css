@@ -56,7 +56,9 @@ h2 {
 }
 
 .jumbotron {
-    background-color: lightgrey
+    background-color: lightgrey;
+    margin: 0px;
+    width: 100%;
 }
   
 .col1 {
