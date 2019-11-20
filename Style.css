@@ -2,6 +2,10 @@ h2 {
     color: white;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container.experience {
     background-color: lightseagreen;
     border-radius: 25px;
