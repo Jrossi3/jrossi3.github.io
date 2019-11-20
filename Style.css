@@ -34,8 +34,8 @@ h2 {
 
 .container.experience {
     background-color: lightseagreen;
-    border-radius: 25px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .container.more {
@@ -66,7 +66,6 @@ h2 {
     align-items: center;
 }
 
-/* Create four equal columns that floats next to each other */
 .col {
     float: left;
     width: 33.33%;
