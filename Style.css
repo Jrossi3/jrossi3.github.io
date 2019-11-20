@@ -68,7 +68,6 @@ img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
 }
 
 img {
@@ -77,23 +76,4 @@ img {
     margin-right: auto;
     width: 25%;
     border-radius: 8px;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-
-.content {
-    padding: 16px;
-}
-  
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-  
-.sticky + .content {
-    padding-top: 60px;
 }
