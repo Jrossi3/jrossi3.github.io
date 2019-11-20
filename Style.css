@@ -26,6 +26,12 @@ h2 {
     font-size: 35px;
 }
 
+.price {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
 .container.experience {
     background-color: lightseagreen;
     border-radius: 25px;
