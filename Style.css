@@ -100,28 +100,45 @@ h2 {
 }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .col3 {
       width: 100%;
     }
 }
 
-.img1 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin: 20px;
-    width: 50%;
+
+@media screen and (max-width: 600px) {
+    .col3 {
+      width: 100%;
+    }
 }
 
-/* .img2 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 20px;
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-} */
+@media (max-width: 998px) and (min-width: 400px){
+    .img1 {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin: 20px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 399px) {
+    .img1 {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin: 20px;
+        width: 50%;
+    }
+}
+
+@media (min-width: 999px) {
+    .img1 {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin: 20px;
+        width: 50%;
+    }
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
