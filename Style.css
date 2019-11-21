@@ -1,6 +1,6 @@
 h2 {
     color: white;
-    font-family: sans-serif, Helvetica, Arial;
+    font-family: sans-serif;
 }
 
 .introText {
@@ -10,7 +10,7 @@ h2 {
 }
 
 ul, p{
-    font-family: sans-serif, Helvetica, Arial;
+    font-family: Arial;
 }
 
 .iTutor {
