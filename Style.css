@@ -1,6 +1,6 @@
 h2 {
     color: white;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 .introText {
@@ -21,19 +21,16 @@ ul, p{
 
 .questions {
     color: white;
-    font-weight: bold;
     font-size: 30px;
 }
 
 .feedback {
     color: white;
-    font-weight: bold;
     font-size: 30px;
 }
 
 .price {
     color: white;
-    font-weight: bold;
     font-size: 30px;
 }
 
