@@ -1,4 +1,97 @@
-h2 {
+@media (max-width: 998px) and (min-width: 400px){
+    h2 {
+        color: white;
+        font-family: "Baskerville";
+    }
+    
+    .introText {
+        padding-left: 15px;    
+        padding-right: 15px;
+        font-size: 20px;  
+    }
+    
+    .col1, .col2, .col3 {
+        font-family:"Century Gothic";
+    }
+    
+    p {
+        font-family: "Century Gothic";
+    }
+    
+    .iTutor {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    a {
+        font-family: "Century Gothic";
+    }
+}
+
+@media (max-width: 399px) {
+    h2 {
+        color: white;
+        font-family: "Baskerville";
+    }
+    
+    .introText {
+        padding-left: 15px;    
+        padding-right: 15px;
+        font-size: 20px;  
+    }
+    
+    .col1, .col2, .col3 {
+        font-family:"Century Gothic";
+    }
+    
+    p {
+        font-family: "Century Gothic";
+    }
+    
+    .iTutor {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    a {
+        font-family: "Century Gothic";
+    }
+}
+
+@media (min-width: 999px) {
+    h2 {
+        color: white;
+        font-family: "Baskerville";
+    }
+    
+    .introText {
+        padding-left: 15px;    
+        padding-right: 15px;
+        font-size: 20px;  
+    }
+    
+    .col1, .col2, .col3 {
+        font-family:"Century Gothic";
+    }
+    
+    p {
+        font-family: "Century Gothic";
+    }
+    
+    .iTutor {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    a {
+        font-family: "Century Gothic";
+    }
+}
+
+/* h2 {
     color: white;
     font-family: "Baskerville";
 }
@@ -25,7 +118,7 @@ p {
 
 a {
     font-family: "Century Gothic";
-}
+} */
 
 .priceList {
     font-size: 20px;
