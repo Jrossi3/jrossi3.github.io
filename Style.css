@@ -20,17 +20,15 @@ ul, p{
 }
 
 a {
-    font-family: "Baskerville";
+    font-family: "Century Gothic";
 }
 
-.questions {
-    color: white;
-    font-size: 30px;
+.contact {
+    font-family: "Century Gothic";
 }
 
 .feedback {
-    color: white;
-    font-size: 30px;
+    font-family: "Century Gothic";
 }
 
 .price {
@@ -173,12 +171,12 @@ a {
     color: white;
     padding: 14px 16px;
     background-color: lightseagreen;
-    font-family: "Baskerville";
+    font-family: "Century Gothic";
     margin: 0;
 }
 
 button {
-    font-family: "Baskerville";
+    font-family: "Century Gothic";
 }
   
 .dropdown-content {
