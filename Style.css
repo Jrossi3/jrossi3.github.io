@@ -19,6 +19,10 @@ ul, p{
     font-weight: bold;
 }
 
+a {
+    font-family: "Baskerville";
+}
+
 .questions {
     color: white;
     font-size: 30px;
@@ -168,13 +172,13 @@ ul, p{
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: lightseagreen;
     font-family: inherit;
     margin: 0;
 }
-  
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: lightseagreen;
+
+button {
+    font-family: "Baskerville";
 }
   
 .dropdown-content {
