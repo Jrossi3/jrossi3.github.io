@@ -18,15 +18,22 @@
         font-family: "Century Gothic";
     }
     
-    .iTutor {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
     a {
         font-family: "Century Gothic";
     }
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        display: block;
+    }
+}
+
+body {
+    margin: 0px;
 }
 
 @media (max-width: 399px) {
@@ -49,14 +56,17 @@
         font-family: "Century Gothic";
     }
     
-    .iTutor {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
     a {
         font-family: "Century Gothic";
+    }
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        display: block;
     }
 }
 
@@ -80,45 +90,19 @@
         font-family: "Century Gothic";
     }
     
-    .iTutor {
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
     a {
         font-family: "Century Gothic";
     }
-}
 
-/* h2 {
-    color: white;
-    font-family: "Baskerville";
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        display: block;
+    }
 }
-
-.introText {
-    padding-left: 15px;    
-    padding-right: 15px;
-    font-size: 20px;  
-}
-
-.col1, .col2, .col3 {
-    font-family:"Century Gothic";
-}
-
-p {
-    font-family: "Century Gothic";
-}
-
-.iTutor {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-a {
-    font-family: "Century Gothic";
-} */
 
 .priceList {
     font-size: 20px;
@@ -128,28 +112,33 @@ a {
     background-color: lightseagreen;
     border-radius: 20px;
     padding: 25px;
+    margin: 1%;
 }
 
 .container.more {
     background-color: lightseagreen;
     border-radius: 20px;
     padding: 25px;
+    margin: 1%;
 }
 
 .container.aboutMe {
     background-color: lightseagreen;
     border-radius: 20px;
     padding: 25px;
+    margin: 1%;
 }
 
 .container.about{
     background-color: lightseagreen;
     border-radius: 20px;
     padding: 25px;
+    margin: 1%;
 }
 
 .jumbotron {
     background-color: lightgrey;
+    margin: 0px;
 }
   
 .col1 {
@@ -191,39 +180,6 @@ a {
 @media screen and (max-width: 600px) {
     .col3 {
       width: 100%;
-    }
-}
-
-@media (max-width: 998px) and (min-width: 400px){
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        margin-left: auto;
-        margin-right: auto; 
-        width: 60%;
-        display: block;
-    }
-}
-
-@media (max-width: 399px) {
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        display: block;
-    }
-}
-
-@media (min-width: 999px) {
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-        display: block;
     }
 }
   
