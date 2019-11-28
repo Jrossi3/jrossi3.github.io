@@ -113,25 +113,29 @@ body {
     padding: 25px;
 }
 
-.container.more {
-    background-color: lightseagreen;
-    border-radius: 20px;
+.container.contact {
+    background-color: red;
     padding: 25px;
-    margin: 1%;
 }
 
 .container.aboutMe {
     background-color: lightseagreen;
-    border-radius: 20px;
     padding: 25px;
-    margin: 1%;
+}
+
+.container.price {
+    background-color: lightseagreen;
+    padding: 25px;
+}
+
+.container.feedback {
+    background-color: lightseagreen;
+    padding: 25px;
 }
 
 .container.about{
     background-color: lightseagreen;
-    border-radius: 20px;
     padding: 25px;
-    margin: 1%;
 }
 
 .jumbotron {
