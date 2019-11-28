@@ -110,9 +110,7 @@ body {
 
 .container.experience {
     background-color: lightseagreen;
-    border-radius: 20px;
     padding: 25px;
-    margin: 1%;
 }
 
 .container.more {
@@ -241,4 +239,12 @@ button {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+footer {
+    background-color: #424242;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: #fd297b;
 }
