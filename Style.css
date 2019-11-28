@@ -3,6 +3,10 @@
         color: white;
         font-family: "Baskerville";
     }
+
+    #about1 {
+        color: lightseagreen;
+    }
     
     .introText {
         padding-left: 15px;    
@@ -42,6 +46,10 @@ body {
         font-family: "Baskerville";
     }
     
+    #about1 {
+        color: lightseagreen;
+    }
+
     .introText {
         padding-left: 15px;    
         padding-right: 15px;
@@ -74,6 +82,10 @@ body {
     h2 {
         color: white;
         font-family: "Baskerville";
+    }
+
+    #about1 {
+        color: lightseagreen;
     }
     
     .introText {
@@ -119,7 +131,7 @@ body {
 }
 
 .container.aboutMe {
-    background-color: lightseagreen;
+    background-color: white;
     padding: 25px;
 }
 
@@ -129,11 +141,6 @@ body {
 }
 
 .container.feedback {
-    background-color: lightseagreen;
-    padding: 25px;
-}
-
-.container.about{
     background-color: lightseagreen;
     padding: 25px;
 }
