@@ -4,10 +4,6 @@
         font-family: "Baskerville";
     }
 
-    #about1 {
-        color: lightseagreen;
-    }
-
     #bio {
         padding-right: 10%;
     }
@@ -49,10 +45,6 @@ body {
         color: white;
         font-family: "Baskerville";
     }
-    
-    #about1 {
-        color: lightseagreen;
-    }
 
     #bio {
         padding-right: 10%;
@@ -90,10 +82,6 @@ body {
     h2 {
         color: white;
         font-family: "Baskerville";
-    }
-
-    #about1 {
-        color: lightseagreen;
     }
 
     #bio {
@@ -143,7 +131,7 @@ body {
 }
 
 .container.aboutMe {
-    background-color: white;
+    background-color: lightgray;
     padding: 25px;
 }
 
@@ -160,6 +148,10 @@ body {
 .jumbotron {
     background-color: lightgrey;
     margin: 0px;
+}
+
+#about1 {
+    color: black;
 }
   
 .col1 {
