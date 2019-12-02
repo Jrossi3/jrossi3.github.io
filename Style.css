@@ -1,29 +1,6 @@
 @media (max-width: 998px) and (min-width: 400px){
-    h2 {
-        color: white;
-        font-family: "Baskerville";
-    }
-
     #bio {
         padding-right: 10%;
-    }
-    
-    .introText {
-        padding-left: 15px;    
-        padding-right: 15px;
-        font-size: 20px;  
-    }
-    
-    .col1, .col2, .col3 {
-        font-family:"Century Gothic";
-    }
-    
-    p {
-        font-family: "Century Gothic";
-    }
-    
-    a {
-        font-family: "Century Gothic";
     }
 
     img {
@@ -36,38 +13,7 @@
     }
 }
 
-body {
-    margin: 0px;
-}
-
 @media (max-width: 399px) {
-    h2 {
-        color: white;
-        font-family: "Baskerville";
-    }
-
-    #bio {
-        padding-right: 10%;
-    }
-
-    .introText {
-        padding-left: 15px;    
-        padding-right: 15px;
-        font-size: 20px;  
-    }
-    
-    .col1, .col2, .col3 {
-        font-family:"Century Gothic";
-    }
-    
-    p {
-        font-family: "Century Gothic";
-    }
-    
-    a {
-        font-family: "Century Gothic";
-    }
-
     img {
         border: 1px solid #ddd;
         border-radius: 4px;
@@ -79,33 +25,10 @@ body {
 }
 
 @media (min-width: 999px) {
-    h2 {
-        color: white;
-        font-family: "Baskerville";
-    }
-
     #bio {
         padding-right: 10%;
     }
     
-    .introText {
-        padding-left: 15px;    
-        padding-right: 15px;
-        font-size: 20px;  
-    }
-    
-    .col1, .col2, .col3 {
-        font-family:"Century Gothic";
-    }
-    
-    p {
-        font-family: "Century Gothic";
-    }
-    
-    a {
-        font-family: "Century Gothic";
-    }
-
     img {
         border: 1px solid #ddd;
         border-radius: 4px;
@@ -114,6 +37,43 @@ body {
         width: 25%;
         display: block;
     }
+}
+
+body {
+    margin: 0px;
+}
+
+.iTutor {
+    text-align: center;
+}
+
+.col1, .col2, .col3 {
+    font-family:"Century Gothic";
+}
+
+.introText {
+    padding-left: 15px;    
+    padding-right: 15px;
+    font-size: 20px;  
+}
+
+p {
+    font-family: "Century Gothic";
+}
+
+a {
+    font-family: "Century Gothic";
+}
+
+h2 {
+    color: white;
+    font-family: "Baskerville";
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .priceList {
@@ -148,6 +108,13 @@ body {
 .jumbotron {
     background-color: lightgrey;
     margin: 0px;
+}
+
+.jumbotron1 {
+    margin: 0px;
+    font-family: "Century Gothic";
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #about1 {
