@@ -17,7 +17,6 @@ a {
 .jumbotron {
     background: lightgrey;
     padding: 10px 20px 0px 20px;
-    width: 100%;
 }
 
 h2 {
@@ -36,13 +35,11 @@ h3 {
 .container.lightgray {
     background-color: lightgrey;
     padding: 25px;
-    width: 100%;
 }
 
 .container.lightseagreen {
     background-color: lightseagreen;
     padding: 25px;
-    width: 100%;
 }
 
 #about1 {
@@ -82,22 +79,22 @@ h3 {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .col1 {
       width: 100%;
     }
 }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .col2 {
       width: 100%;
     }
-}
+} */
 
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .col3 {
       width: 100%;
     }
