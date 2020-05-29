@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Style.css">
+    <title>Pricing</title>
+    <html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body 
+        {
+            background: white;
+        }
+
+        .navbar 
+        {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a 
+        {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 19px 19px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover 
+        {
+            background-color: lightseagreen;
+            color: black;
+        }
+
+        .navbar .icon 
+        {
+            display: none;
+        }
+
+        @media screen and (max-width: 750px) 
+        {
+            .navbar a:not(:nth-child(2)) {display: none;
+        }
+            .navbar a.icon 
+            {
+                float: right;
+                display: block;
+                border-left: 1px solid #bbb;
+            }
+        }
+
+        @media screen and (max-width: 750px) 
+        {
+            .navbar.responsive {position: relative;
+        }
+            .navbar.responsive .icon 
+            {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .navbar.responsive a 
+            {
+                float: none;
+                display: block;
+                text-align: left;
+                border-bottom: 1px solid #bbb;
+            }
+        }
+        @media (max-width: 998px) and (min-width: 400px){
+        img {
+            border-radius: 4px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+            display: block;
+        }
+        }
+
+        @media (max-width: 399px) {
+            img {
+                border-radius: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                display: block;
+            }
+        }
+
+        @media (min-width: 999px) {
+            img {
+                border-radius: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                display: block;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="navbar" id = "myNavbar">
+            <a href="index.html">iOffer</a>
+            <a style = "background: lightseagreen" href="Math.html">Math</a>
+            <a href="StandardizedTests.html">Standardized Testing</a>
+            <a href="Chess.html">Chess</a>
+            <a href="SwimInstructor.html">Swim Instructor</a>
+            <a href="Golf.html">Golf Balls</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+        </div>
+                
+                        <br><br><br>
+                        <br>
+                    <h3 style="font-size: 40px">Math</h3>
+                <br>
+            <img src="Math1.jpg" alt="eh" border = "0"></a>
+            <br>
+            <div class="container lightseagreen">
+                    <div class="row">
+                        <h3 id = "about2">Overview</h2>
+                        <div class="col2">
+                            <h2>Available Math Courses (in sequential order)</h2>
+                                <ul>
+                                    <li>Pre-Algebra</li>
+                                    <li>Algebra 1</li>
+                                    <li>Algebra 2</li>
+                                    <li>Trigonometry</li>
+                                    <li>AP Calculus AB</li>
+                                    <li>AP Calculus BC</li>
+                                    <li>AP Statistics</li>
+                                    <li>Linear Algebra</li>
+                                    <li>Multivariable Calculus</li>
+                                </ul>
+                        </div>
+                        <div class="col2">
+                            <h2>Why is Math necessary?</h2>
+                                <p>
+                                    The world is becoming more and more technological 
+                                    and having a mathematical mind will give your children 
+                                    the opportunity to set themselves up to live a great life 
+                                    financially. There will be a bigger need for mathematicians 
+                                    and those with quantitative minds as society heads into a more 
+                                    developed world. Math is arguably one of the most essential 
+                                    fields of study out there as having a mind that can work numbers 
+                                    will lead to endless possibilities. 
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            <div class="container lightgray">
+                    <div class="row">
+                        <h3>Pricing</h3>
+                            <div class="col2">
+                                <h2 id = "about1">Algebra 1 and below</h2>
+                                    <ul>
+                                        <li>Individual Sessions: $40/hr</li>
+                                        <ul>
+                                            <li>10 hour package: $350</li>
+                                            <li>20 hour package: $600</li>
+                                        </ul>
+                                        <li>Group Sessions: $30/hr</li>
+                                        <ul>
+                                            <li>10 hour package: $250</li>
+                                            <li>20 hour package: $400</li>
+                                        </ul>
+                                    </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col2">
+                                <h2 id = "about1">Above Algebra 1</h2>
+                                    <ul>
+                                    <li>Individual Sessions: $45/hr</li>
+                                        <ul>
+                                            <li>10 hour package: $400</li>
+                                            <li>20 hour package: $700</li>
+                                        </ul>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                <h3>First session is free!</h3>
+            </div>
+        </div>
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("myNavbar");
+                if (x.className === "navbar") {
+                x.className += " responsive";
+                } else {
+                x.className = "navbar";
+                }
+            }
+        </script>
+        <footer>
+            <div class = "location">
+                <ul>
+                    <p class = "locationHeader">Jason Rossi</p>
+                    <p>Northern New Jersey</p>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

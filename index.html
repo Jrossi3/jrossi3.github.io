@@ -1,85 +1,146 @@
 <!doctype html>
 <html lang="en">
-  <head>
+    <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="Style.css">
     <title>Tutoring</title>
-  </head>
-  <body>
-    <div class="navbar">
-        <div class="dropdown">
-            <button class="dropbtn">iTutor
-                <i class="down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="index.html">iTutor</a>
-                <a href="Pricing.html">Pricing</a>
-            </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body 
+        {
+            background-color: lightseagreen;
+        }
+
+        .navbar 
+        {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a 
+        {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 19px 19px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover 
+        {
+            background-color: lightseagreen;
+            color: black;
+        }
+
+        .navbar .icon 
+        {
+            display: none;
+        }
+
+        @media screen and (max-width: 750px) 
+        {
+            .navbar a:not(:first-child) {display: none;
+        }
+            .navbar a.icon 
+            {
+                float: right;
+                display: block;
+                border-left: 1px solid #bbb;
+            }
+        }
+
+        @media screen and (max-width: 750px) 
+        {
+            .navbar.responsive {position: relative;
+        }
+            .navbar.responsive .icon 
+            {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .navbar.responsive a 
+            {
+                float: none;
+                display: block;
+                text-align: left;
+                border-bottom: 1px solid #bbb;
+            }
+        }
+        @media (max-width: 998px) and (min-width: 400px){
+            img {
+                border-radius: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                display: block;
+                background-color: lightseagreen;
+            }
+        }
+
+        @media (max-width: 399px) {
+            img {
+                border-radius: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                display: block;
+                background-color: lightseagreen;
+            }
+        }
+
+        @media (min-width: 999px) {
+            img {
+                border-radius: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+                display: block;
+                background-color: lightseagreen;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <div class="navbar" id = "myNavbar">
+            <a style = "background: lightseagreen"  href="index.html">iOffer</a>
+            <a href="Math.html">Math</a>
+            <a href="StandardizedTests.html">Standardized Testing</a>
+            <a href="Chess.html">Chess</a>
+            <a href="SwimInstructor.html">Swim Instructor</a>
+            <a href="Golf.html">Golf Balls</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
         </div>
-    </div>
-    
-    <div class="jumbotron">
+        <div class="jumbotron">
+            <br><br><br>
+            <br>
+            <h3>iOffer</h3>
+                <div class = jumbotron1> 
+                    <p>    
+                        My name is Jason Rossi, and I am from East Hanover, 
+                        New Jersey. I went to Delbarton School and am 
+                        currently a freshman at Stevens Institute of Technology
+                        studying Computer Science. I am available to tutor 
+                        in-person or online via Skype, Facetime, or over the phone. 
+                        I have my own car and a clean driving record. If you have 
+                        any questions, feel free to let me know!
+                    </p>
+                </div>
+                <h3>All first sessions are free!</h3>
         <br>
-        <h3 style="font-family: Baskerville">iTutor</h3>
+        </div>
         <br>
-            <div class = jumbotron1> 
-                Hi! My name is Jason Rossi, and I 
-                am from East Hanover, New Jersey. I am currently 
-                a freshman at Stevens Institute of Technology. I 
-                am available to tutor in-person (I have my own
-                car and a clean driving record), via Skype, Facetime, 
-                or over the phone. My tutoring is not limited to Math 
-                and Programming as I have tutored other subjects before. 
-                If you have any questions, feel free to let me know!
-            </p>
-            </div>
-    <br><br><br>
-    </div>
-    <br>
-    <img src="https://i.ibb.co/HHzPmKZ/Senior-Photo.png" 
-      alt="Senior-Photo" border="0" /></a>
-      <br>
-      <div class="container experience">
+        <img src="https://i.ibb.co/HHzPmKZ/Senior-Photo.png" 
+        alt="Senior-Photo" border="0" /></a>
+        <br>
+        <div class="container lightgray">
             <div class="row">
-                <div class="col3">
-                    <h2>Available Math Courses</h2>
-                        <ul>
-                            <li>Pre-Algebra</li>
-                            <li>Algebra 1</li>
-                            <li>Trigonometry</li>
-                            <li>Algebra 2</li>
-                            <li>AP Calculus AB</li>
-                            <li>AP Calculus BC</li>
-                            <li>AP Statistics</li>
-                            <li>Linear Algebra</li>
-                            <li>Multivariable Calculus</li>
-                        </ul>
-                </div>
-                <div class="col3">
-                    <h2>Available Math Testing</h2>
-                        <ul>
-                            <li>SAT Math Portion</li>
-                            <li>ACT Math Portion</li>
-                            <li>Math 1 Subject Test</li>
-                            <li>Math 2 Subject Test</li>
-                        </ul>
-                </div>
-                <div class="col3">
-                        <h2>Available Programming Courses</h2>
-                            <ul>
-                                <li>Java</li>
-                                <li>C++</li>
-                                <li>Python</li>
-                                <li>Javascript</li>
-                                <li>CSS/HTML</li>
-                            </ul>
-                    </div>
-            </div>
-        </div>
-    <div class="container aboutMe">
-        <div class="row">
                 <div class="col3">
                     <h2 id = "about1">Education:</h2>
                         <ul>
@@ -90,7 +151,7 @@
                 </div>
                 <div class="col3">
                     <h2 id = "about1">Bio:</h2>
-                        <p id = "bio">I have been tutoring for 3 years and love working 
+                        <p>I have been tutoring for 3 years and love working 
                         with students. I created the Math Tutoring Center at my high school 
                         and was president of my Chess Club. I enjoy playing strategy-based 
                         games and solving riddles as well as telling them. I play soccer, 
@@ -98,47 +159,65 @@
                         </p>
                 </div>
                 <div class="col3">
-                    <h2 id = "about1">Standardized Tests</h2>
+                    <h2 id = "about1">Contact Information:</h2>
                         <ul>
-                            <li>Math SAT: 800</li>
-                            <li>Math 1 Subject Test: 800</li>
-                            <li>Math 2 Subject Test: 800</li>
-                            <li>AP Calculus AB: 5</li>
-                            <li>AP Calculus BC: 5</li>
-                            <li>AP Computer Science: 5</li>
+                            <li>Email: Jasrossi14@gmail.com</li>
+                            <li>Number: 973-224-6115</li>
                         </ul>
-                </div>   
-          </div>
-      </div>
-      <div class="container contact">
-          <div class="row">
-            <div class="col2">
-                <h2>Contact Me:</h2>
-                    <form name="input" method="POST" action="https://formspree.io/myyzjynd" method = "get">
-                        Name: <br><input type="text" name="name" placeholder="Your name"><br><br>
-                        Email or Phone Number: <br><input type="text" name="email" placeholder="Your contact"><br><br>
-                        Subject(s) for Assistance: <br><input type="text" name="Subject(s)" placeholder="Subject"><br><br>
-                        Any additional information you would like me to know: <br><textarea type="text" name="more information" placeholder="Your message"></textarea><br>
-                        <br>
-                        <input type="submit" value="Submit">
-                    </form>
-              </div>
-            <div class="col2">
-                <h2>Contact Information:</h2>
-                    <ul>
-                        <li>Email: Jasrossi14@gmail.com</li>
-                        <li>Number: 973-224-6115</li>
-                    </ul>
+                </div> 
             </div>
-          </div>
-      </div>
-    <footer>
-        <div class = "location">
-            <ul>
-                <p class = "locationHeader">Jason Rossi</p>
-                <p>Northern New Jersey</p>
-            </ul>
         </div>
-    </footer>
-  </body>
+
+        <div class="container lightseagreen">
+                <div class="row">
+                    <div class="col2">
+                        <h2>Available Locations in Person</h2>
+                                <ul>
+                                    <li>Hoboken</li>
+                                    <li>Morris County</li>
+                                    <li>East Hanover</li>
+                                    <li>Florham Park</li>
+                                    <li>Morristown</li>
+                                    <li>Livingston</li>
+                                    <li>South Orange</li>
+                                    <li>West Orange</li>
+                                    <li>Roseland</li>
+                                    <li>Madison</li>
+                                    <li>Summit</li>
+                                    <li>Millburn</li>
+                                    <li>Chatham</li>
+                                </ul>
+                    </div>
+                    <div class="col2">
+                        <h2>I appreciate any feedback!</h2>
+                                <form name="input" method="POST" action="https://formspree.io/myyzjynd" method = "get">
+                                    Name (Optional):<br><input type="text" name="name" placeholder="Your name"><br><br>
+                                    Rating (Optional):<br><input type="text" name="rating" placeholder="Rating"><br><br>
+                                    Message:<br><textarea type="text" name="message" placeholder="Your message"></textarea><br>
+                                    <br>
+                                    <input type="submit" value="Submit">
+                                </form>
+                    </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() 
+            {
+                var x = document.getElementById("myNavbar");
+                if (x.className === "navbar") {
+                x.className += " responsive";
+                } else {
+                x.className = "navbar";
+                }
+            }
+        </script>
+        <footer>
+            <div class = "location">
+                <ul>
+                    <p class = "locationHeader">Jason Rossi</p>
+                    <p>Northern New Jersey</p>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
