@@ -50,6 +50,7 @@ h3 {
     color: white;
 }
   
+
 .col1 {
     float: left;
     width: 100%;
@@ -57,7 +58,7 @@ h3 {
 
 .col2 {
     float: left;
-    width: 45%;
+    width: 50%;
     padding-left: 30px;
     padding-right: 20px;
 }
@@ -65,11 +66,6 @@ h3 {
 .col3 {
     float: left;
     width: 33.33%;
-}
-
-.col5 {
-    float: left;
-    width: 20%;
 }
 
   /* Clear floats */
@@ -86,11 +82,11 @@ h3 {
 }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .col2 {
-      width: 100%;
+      width: 94%;
     }
-} */
+}
 
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
